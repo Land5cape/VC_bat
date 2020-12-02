@@ -41,7 +41,7 @@ echo Class C
 call :oneQP BasketballDrill      832  480 50 60 1 
 call :oneQP BQMall               832  480 60 60 1
 call :oneQP PartyScene           832  480 50 60 1 
-call :oneQP RaceHorsesC          832  480 30 60 1 
+call :oneQP RaceHorses           832  480 30 60 1 
 
 echo Class B 
 call :oneQP Kimono              1920 1080 24 60 1

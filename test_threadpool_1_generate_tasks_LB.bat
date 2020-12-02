@@ -37,7 +37,7 @@ echo Class C
 call :oneQP BasketballDrill      832  480 50 300 -1 
 call :oneQP BQMall               832  480 60 300 -1
 call :oneQP PartyScene           832  480 50 300 -1 
-call :oneQP RaceHorsesC          832  480 30 300 -1 
+call :oneQP RaceHorses           832  480 30 300 -1 
 
 
 
