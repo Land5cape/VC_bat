@@ -1,5 +1,4 @@
 # powershell thread pool
-# http://www.pstips.net/speeding-up-powershell-multithreading.html
 Set-Location "E:\workplace\1" # 执行ps脚本需要切换到当前路径
 $tm_start = Get-Date
 Write-Host '任务开始于：' + (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')
