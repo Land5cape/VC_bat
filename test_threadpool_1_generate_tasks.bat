@@ -9,7 +9,7 @@ set test_dir=E:/workplace/test_sequence
 :: 取消如下行中需要测试的配置即可
 :: 任务的设置也需随之更改
 :::: LDP 22,27,32,37
-for %%i in (22) do call :test_common LDB %%i "--IntraPeriod=-1"
+for %%i in (22) do call :test_common LDB %%i ""
 :::: RA 22
 :: for %%i in () do call :test_common RA %%i ""
 :::: AI 22,27,32
@@ -21,8 +21,9 @@ exit /b
 :test_common
 :: "encoder_cfg, add_params" is setted before being called
 :: %i 表示第i个参数
-set dat_dir=dat_%1 
-set log_dir=log_%1
+set "dat_dir=dat_%1"
+echo %dat_dir%
+set "log_dir=log_%1"
 mkdir %dat_dir% %log_dir%
 set encoder_cfg=encoder_%1.cfg
 set QP=%2

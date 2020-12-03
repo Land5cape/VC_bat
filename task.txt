@@ -1,0 +1,24 @@
+1 
+-c encoder_LDB.cfg -i "E:/workplace/test_sequence/BasketballPass_416x240_50.yuv" -b dat_LDB\str_BasketballPass_416_QP22.bin -o dat_LDB\rec_BasketballPass_416_QP22.yuv -wdt 416 -hgt 240 -f 300 -fr 50 -q 22 --IntraPeriod=-1  
+log_LDB\BasketballPass_416_QP22_log.txt 
+2 
+-c encoder_LDB.cfg -i "E:/workplace/test_sequence/BQSquare_416x240_60.yuv" -b dat_LDB\str_BQSquare_416_QP22.bin -o dat_LDB\rec_BQSquare_416_QP22.yuv -wdt 416 -hgt 240 -f 300 -fr 60 -q 22 --IntraPeriod=-1  
+log_LDB\BQSquare_416_QP22_log.txt 
+3 
+-c encoder_LDB.cfg -i "E:/workplace/test_sequence/BlowingBubbles_416x240_50.yuv" -b dat_LDB\str_BlowingBubbles_416_QP22.bin -o dat_LDB\rec_BlowingBubbles_416_QP22.yuv -wdt 416 -hgt 240 -f 300 -fr 50 -q 22 --IntraPeriod=-1  
+log_LDB\BlowingBubbles_416_QP22_log.txt 
+4 
+-c encoder_LDB.cfg -i "E:/workplace/test_sequence/RaceHorses_416x240_30.yuv" -b dat_LDB\str_RaceHorses_416_QP22.bin -o dat_LDB\rec_RaceHorses_416_QP22.yuv -wdt 416 -hgt 240 -f 300 -fr 30 -q 22 --IntraPeriod=-1  
+log_LDB\RaceHorses_416_QP22_log.txt 
+5 
+-c encoder_LDB.cfg -i "E:/workplace/test_sequence/BasketballDrill_832x480_50.yuv" -b dat_LDB\str_BasketballDrill_832_QP22.bin -o dat_LDB\rec_BasketballDrill_832_QP22.yuv -wdt 832 -hgt 480 -f 300 -fr 50 -q 22 --IntraPeriod=-1  
+log_LDB\BasketballDrill_832_QP22_log.txt 
+6 
+-c encoder_LDB.cfg -i "E:/workplace/test_sequence/BQMall_832x480_60.yuv" -b dat_LDB\str_BQMall_832_QP22.bin -o dat_LDB\rec_BQMall_832_QP22.yuv -wdt 832 -hgt 480 -f 300 -fr 60 -q 22 --IntraPeriod=-1  
+log_LDB\BQMall_832_QP22_log.txt 
+7 
+-c encoder_LDB.cfg -i "E:/workplace/test_sequence/PartyScene_832x480_50.yuv" -b dat_LDB\str_PartyScene_832_QP22.bin -o dat_LDB\rec_PartyScene_832_QP22.yuv -wdt 832 -hgt 480 -f 300 -fr 50 -q 22 --IntraPeriod=-1  
+log_LDB\PartyScene_832_QP22_log.txt 
+8 
+-c encoder_LDB.cfg -i "E:/workplace/test_sequence/RaceHorses_832x480_30.yuv" -b dat_LDB\str_RaceHorses_832_QP22.bin -o dat_LDB\rec_RaceHorses_832_QP22.yuv -wdt 832 -hgt 480 -f 300 -fr 30 -q 22 --IntraPeriod=-1  
+log_LDB\RaceHorses_832_QP22_log.txt 
