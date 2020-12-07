@@ -1,19 +1,19 @@
 echo off %后面所有的命令均不显示%
 :: 转到批处理文件所在路径  
 cd /d %~dp0
-set taskfile=task.txt
+set "taskfile=task.txt"
 set /a counter=1
 del /Q %taskfile%
-set test_dir=E:/workplace/test_sequence
+set "test_dir=E:/workplace/test_sequence"
 ::-----------------------------------------------------------------
 :: 取消如下行中需要测试的配置即可
 :: 任务的设置也需随之更改
-:::: LDP 22,27,32,37
-for %%i in (22) do call :test_common LDB %%i ""
-:::: RA 22
+:::: LDP 22,27,32,37 --IntraPeriod=-1
+for %%i in (22,27,32,37) do call :test_common LDB %%i ""
+:::: RA LDP 22,27,32,37
 :: for %%i in () do call :test_common RA %%i ""
-:::: AI 22,27,32
-::for %%i in (22) do call :test_common AI %%i "--IntraPeriod=1"
+:::: AI 22,27,32 --IntraPeriod=1
+::for %%i in (22) do call :test_common AI %%i ""
 ::-----------------------------------------------------------------
 pause
 exit /b

@@ -22,7 +22,7 @@ $ScriptBlock = {
     $exe_params = $exe_params.Split(" ")
     # echo $exe_params >> $exe_output
     # Start-Process -FilePath bin/TAppEncoder.exe -ArgumentList "$exe_params" >> $exe_output
-    ./TAppEncoder.exe $exe_params >> $exe_output # 执行编码，写入log文件
+    ./EncoderApp.exe $exe_params >> $exe_output # 执行编码，写入log文件
     Write-Host "Done processing ID $id"
 }
 
